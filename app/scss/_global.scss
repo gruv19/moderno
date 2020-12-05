@@ -1,5 +1,9 @@
+@import './vars';
+
 html {
   box-sizing: border-box;
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 10px;
 }
 
 *, *::before, *::after {
@@ -7,7 +11,9 @@ html {
 }
 
 a {
-  display: block;
+  display: inline-block;
+  text-decoration: none;
+  color: $text;
 }
 
 ul, li {
@@ -15,3 +21,14 @@ ul, li {
   padding: 0;
   list-style: none;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  color: $text;
+}
+
