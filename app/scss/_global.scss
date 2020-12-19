@@ -54,3 +54,16 @@ ul, li {
   margin-bottom: 30px;
   text-align: center;
 }
+
+.angle-right {
+  position: relative;
+  padding-left: 15px;
+  &::before {
+    content: '\f105';
+    font-family: 'icomoon';
+    position: absolute;
+    left: 0;
+    color: $green;
+    font-size: 1.4rem;
+  }
+}
